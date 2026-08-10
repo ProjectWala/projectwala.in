@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Project Wala India</title>
+    <title>About Project Wala India | Educators, Project Trainers & Mock Interviews</title>
+    <meta name="description" content="Learn about Project Wala India. We are a group of educators providing student training in tech fields, B.Tech, BCA, MCA projects, and mock interview preparation." />
+    <meta name="keywords" content="About Project Wala, educators, project trainers, tech field training, mock interview preparation, B.Tech projects, BCA projects, MCA projects, Lucknow, Kanpur, Delhi NCR" />
     <?php include("partials/links_css.php"); ?>
 </head>
 
@@ -16,7 +18,7 @@
         <section id="about" class="about section light-background pt-3  project-wala-bg">
             <div class="container section-title" data-aos="fade-up">
 
-                <h2>About</h2>
+                <h1 class="h2">About Us</h1>
                 <div class="title-shape">
                     <svg viewbox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
                         <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>

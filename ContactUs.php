@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Project Wala India</title>
+    <title>Contact Project Wala India | Get in Touch for Projects & Training</title>
+    <meta name="description" content="Contact Project Wala India for B.Tech, BCA, MCA projects, tech training, and mock interviews. We are active in Lucknow, Kanpur, Delhi NCR, and Dehradun. Call or WhatsApp us today!" />
+    <meta name="keywords" content="Contact Project Wala, project wala phone number, tech training contact, B.Tech project help, BCA project support, MCA training, Lucknow, Kanpur, Delhi NCR, Dehradun" />
     <?php include("partials/links_css.php"); ?>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
@@ -54,13 +56,13 @@
         <main class="main">
             <section id="contact" class="contact section light-background project-wala-bg">
                 <div class="container section-title" data-aos="fade-up">
-                    <h2>Contact us</h2>
+                    <h1 class="h2">Contact Us</h1>
                     <div class="title-shape">
                         <svg viewbox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
                             <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
                         </svg>
                     </div>
-                    <p>Active in<br />Lucknow |&nbsp;Kanpur |&nbsp;Delhi NCR |&nbsp;Dehradun</p>
+                    <p>Active in<br />Lucknow | Kanpur | Delhi NCR | Dehradun</p>
                 </div>
                 <div class="container" data-aos="fade-up" data-aos-delay="100">
                     <div class="row g-5">
