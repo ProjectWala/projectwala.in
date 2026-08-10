@@ -1,0 +1,19 @@
+# Enable rewriting
+RewriteEngine On
+
+# Base path
+RewriteBase /ProjectWala_New/
+
+# Pretty URLs
+# RewriteRule ^/?$ index.php [L]
+RewriteRule ^contacts/?$ ContactUs.php [L]
+RewriteRule ^contact-us/?$ ContactUs.php [L]
+RewriteRule ^about-us/?$ aboutus.php [L]
+RewriteRule ^cse-bca-mca-it-Computer-science-btech-projects-list/?$ cse-bca-mca-it-Computer-science-btech-projects-list.php [L]
+RewriteRule ^electronics-ece-btech-engineering-projects-list/?$ electronics-ece-btech-engineering-projects-list.php [L]
+RewriteRule ^machenical-me-btech-engineering-projects-list/?$ machenical-me-btech-engineering-projects-list.php [L]
+
+RewriteRule ^courses/?$ courses-list.php [L]
+# Course ID rewrite (e.g. /courses/1 → PHP file)
+RewriteRule ^courses/([0-9]+)/?$ courses/course-details.php?id=$1 [L,QSA]
+

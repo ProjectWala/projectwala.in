@@ -1,0 +1,57 @@
+.text-gradiant {
+  /*font-size: 42px;*/
+  /*font-weight: 700;*/
+  /*margin-bottom: 10px;*/
+  background: linear-gradient(120deg, var(--heading-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.btn.btn-orange:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  transform: translateY(-2px);
+}
+
+.btn-orange {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.text-orange {
+  color: var(--accent-color);
+}
+
+.text-orange-dark {
+  color: #b35a27;
+}
+
+.btn-large {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.z-index9 {
+  z-index: 2;
+}
+
+.project-wala-bg {
+  /*background: url("../../assets/img/logoOp05.webp");*/
+}
+
+.img32 {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.img48 {
+  width: 48px;
+  height: 48px;
+}
+
