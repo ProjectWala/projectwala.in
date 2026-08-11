@@ -12,6 +12,23 @@ $base_path = getBasePath();
     <title>Software Development Tutorials & Guides | Project Wala India</title>
     <meta name="description" content="Explore our collection of tutorials on setting up local environments, importing databases, running PHP projects, and more with Project Wala India.">
     <meta name="keywords" content="IT Tutorials, Software Development Guides, Setup XAMPP, PHP Projects, MySQL, Project Wala India Tutorials">
+    
+    <link rel="canonical" href="https://projectwala.in/tutorials.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Software Development Tutorials & Guides | Project Wala India" />
+    <meta property="og:description" content="Explore our collection of tutorials on setting up local environments, importing databases, running PHP projects, and more with Project Wala India." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/tutorials.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Software Development Tutorials & Guides | Project Wala India" />
+    <meta name="twitter:description" content="Explore our collection of tutorials on setting up local environments, importing databases, and running PHP projects." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
 </head>
 

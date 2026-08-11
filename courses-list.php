@@ -4,7 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Project Wala India Courses</title>
+    <title>Project Wala India Courses | Full Stack, Frontend, Backend & C# Training</title>
+    <meta name="description" content="Explore Project Wala India crash courses. Master Full Stack, Frontend (VueJS, Bootstrap 5), Backend (Web API, PHP), and C#.Net programming with live projects." />
+    <meta name="keywords" content="Crash Courses, Full Stack Training, Frontend Development, VueJS, Backend Development, C#.Net, ASP.NET Core MVC, Web API, Project Training, Project Wala India" />
+    
+    <link rel="canonical" href="https://projectwala.in/courses-list.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Project Wala India Courses | Full Stack, Frontend, Backend & C# Training" />
+    <meta property="og:description" content="Explore Project Wala India crash courses. Master Full Stack, Frontend (VueJS, Bootstrap 5), Backend (Web API, PHP), and C#.Net programming with live projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/courses-list.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Project Wala India Courses | Full Stack, Frontend, Backend & C# Training" />
+    <meta name="twitter:description" content="Explore Project Wala India crash courses. Master Full Stack, Frontend, Backend, and C#.Net programming with live projects." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
 
 </head>

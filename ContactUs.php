@@ -7,6 +7,23 @@
     <title>Contact Project Wala India | Get in Touch for Projects & Training</title>
     <meta name="description" content="Contact Project Wala India for B.Tech, BCA, MCA projects, tech training, and mock interviews. We are active in Lucknow, Kanpur, Delhi NCR, and Dehradun. Call or WhatsApp us today!" />
     <meta name="keywords" content="Contact Project Wala, project wala phone number, tech training contact, B.Tech project help, BCA project support, MCA training, Lucknow, Kanpur, Delhi NCR, Dehradun" />
+    
+    <link rel="canonical" href="https://projectwala.in/ContactUs.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact Project Wala India | Get in Touch for Projects & Training" />
+    <meta property="og:description" content="Contact Project Wala India for B.Tech, BCA, MCA projects, tech training, and mock interviews. We are active in Lucknow, Kanpur, Delhi NCR, and Dehradun. Call or WhatsApp us today!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/ContactUs.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact Project Wala India | Get in Touch for Projects & Training" />
+    <meta name="twitter:description" content="Contact Project Wala India for B.Tech, BCA, MCA projects, tech training, and mock interviews. Call or WhatsApp us today!" />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 

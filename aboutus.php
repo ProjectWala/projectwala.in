@@ -7,6 +7,23 @@
     <title>About Project Wala India | Educators, Project Trainers & Mock Interviews</title>
     <meta name="description" content="Learn about Project Wala India. We are a group of educators providing student training in tech fields, B.Tech, BCA, MCA projects, and mock interview preparation." />
     <meta name="keywords" content="About Project Wala, educators, project trainers, tech field training, mock interview preparation, B.Tech projects, BCA projects, MCA projects, Lucknow, Kanpur, Delhi NCR" />
+    
+    <link rel="canonical" href="https://projectwala.in/aboutus.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="About Project Wala India | Educators, Project Trainers & Mock Interviews" />
+    <meta property="og:description" content="Learn about Project Wala India. We are a group of educators providing student training in tech fields, B.Tech, BCA, MCA projects, and mock interview preparation." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/aboutus.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About Project Wala India | Educators, Project Trainers & Mock Interviews" />
+    <meta name="twitter:description" content="Learn about Project Wala India. We are a group of educators providing student training in tech fields, B.Tech, BCA, MCA projects." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
 </head>
 

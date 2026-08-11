@@ -8,7 +8,26 @@ $type='Mechanical';
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Project Wala India</title>
+    <title>Mechanical (ME) B.Tech Engineering Projects | Project Wala India</title>
+    <meta name="description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
+    <meta name="keywords" content="Mechanical Projects, ME Projects, B.Tech Mechanical Projects, Engineering Projects, Final Year Projects, Project Wala India" />
+    
+    <link rel="canonical" href="https://projectwala.in/machenical-me-btech-engineering-projects-list.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mechanical (ME) B.Tech Engineering Projects | Project Wala India" />
+    <meta property="og:description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/machenical-me-btech-engineering-projects-list.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mechanical (ME) B.Tech Engineering Projects" />
+    <meta name="twitter:description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="module">

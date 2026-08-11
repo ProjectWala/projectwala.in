@@ -8,7 +8,26 @@ $type='Electronics';
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Project Wala India</title>
+    <title>Electronics (ECE) B.Tech Engineering Projects | Project Wala India</title>
+    <meta name="description" content="Browse our comprehensive list of final year Electronics (ECE) B.Tech engineering projects. Live projects, hosting, and deployment with Project Wala India." />
+    <meta name="keywords" content="Electronics Projects, ECE Projects, B.Tech Engineering Projects, Final Year Projects, Project Wala India" />
+    
+    <link rel="canonical" href="https://projectwala.in/electronics-ece-btech-engineering-projects-list.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Electronics (ECE) B.Tech Engineering Projects | Project Wala India" />
+    <meta property="og:description" content="Browse our comprehensive list of final year Electronics (ECE) B.Tech engineering projects. Live projects, hosting, and deployment with Project Wala India." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/electronics-ece-btech-engineering-projects-list.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Electronics (ECE) B.Tech Engineering Projects" />
+    <meta name="twitter:description" content="Browse our comprehensive list of final year Electronics (ECE) B.Tech engineering projects." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 

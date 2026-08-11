@@ -9,7 +9,26 @@ $type='ComputerScience';
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Project Wala India</title>
+    <title>Computer Science (CSE, IT, BCA, MCA) B.Tech Projects | Project Wala India</title>
+    <meta name="description" content="Explore top B.Tech, BCA, MCA, and IT final year projects for Computer Science students. Full Stack, Live Project, Hosting & Deployment by Project Wala India." />
+    <meta name="keywords" content="CSE Projects, IT Projects, BCA Projects, MCA Projects, Computer Science Projects, B.Tech Projects, Final Year Projects, Project Wala India" />
+    
+    <link rel="canonical" href="https://projectwala.in/cse-bca-mca-it-Computer-science-btech-projects-list.php" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Computer Science (CSE, IT, BCA, MCA) B.Tech Projects | Project Wala India" />
+    <meta property="og:description" content="Explore top B.Tech, BCA, MCA, and IT final year projects for Computer Science students. Full Stack, Live Project, Hosting & Deployment." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://projectwala.in/cse-bca-mca-it-Computer-science-btech-projects-list.php" />
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+    <meta property="og:site_name" content="Project Wala India" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Computer Science B.Tech Projects | Project Wala India" />
+    <meta name="twitter:description" content="Explore top B.Tech, BCA, MCA, and IT final year projects for Computer Science students." />
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
+
     <?php include("partials/links_css.php"); ?>
    
 

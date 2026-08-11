@@ -7,9 +7,24 @@
     <title>Project Wala India | B.Tech & MCA Final Year Projects & IT Training</title>
     <meta name="description" content="Project Wala India provides B.Tech, MCA, BCA and Diploma final year projects. Learn coding with live mentorship in C#, ASP.NET Core, Vue.js, and Fullstack development.">
     <meta name="keywords" content="Final Year Projects, B.Tech Projects, MCA Projects, IT Training, Software Development Courses, Project Wala India, Lucknow, Mentorship, C#, ASP.NET Core, Fullstack">
+    <link rel="canonical" href="https://projectwala.in/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Project Wala India | B.Tech & MCA Final Year Projects">
+    <meta property="og:description" content="Project Wala India provides B.Tech, MCA, BCA and Diploma final year projects. Learn coding with live mentorship in C#, ASP.NET Core, Vue.js, and Fullstack development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://projectwala.in/">
+    <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp">
+    <meta property="og:site_name" content="Project Wala India">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Project Wala India | B.Tech & MCA Final Year Projects">
+    <meta name="twitter:description" content="Project Wala India provides B.Tech, MCA, BCA and Diploma final year projects. Learn coding with live mentorship.">
+    <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp">
+
     <?php include("partials/links_css.php"); ?>
     <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js" type="module"></script>
-
 </head>
 
 <body class="index-page">
