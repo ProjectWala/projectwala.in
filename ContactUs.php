@@ -128,21 +128,7 @@
         <?php include("partials/callButton.php"); ?>
         <?php include("partials/whatsappButton.php"); ?>
     </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/Incrementing-Animation-Counter.js"></script>
-    <script src="assets/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendor/php-email-form/validate.js"></script>
-    <script src="assets/js/vendor/aos/aos.js"></script>
-    <script src="assets/js/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/js/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/js/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/js/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/js/main.js"></script>
+    <?php include("partials/links_scripts.php"); ?>
 </body>
 
 </html>

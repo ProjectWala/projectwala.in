@@ -2,13 +2,16 @@
 RewriteEngine On
 
 # Base path
-RewriteBase /ProjectWala_New/
 
 # Pretty URLs
 # RewriteRule ^/?$ index.php [L]
 RewriteRule ^contacts/?$ ContactUs.php [L]
 RewriteRule ^contact-us/?$ ContactUs.php [L]
 RewriteRule ^about-us/?$ aboutus.php [L]
+RewriteRule ^tutorials/?$ tutorials.php [L]
+# Tutorial detail pages 
+RewriteRule ^tutorials/how-to-run-local-php-project-using-xampp-mysql-server/?$ tutorials/how-to-run-local-php-project-using-xampp-mysql-server.php [L] 
+RewriteRule ^tutorials/how-to-import-database-sql-script-to-xampp-mysql-server/?$ tutorials/how-to-import-database-sql-script-to-xampp-mysql-server.php [L]
 RewriteRule ^cse-bca-mca-it-Computer-science-btech-projects-list/?$ cse-bca-mca-it-Computer-science-btech-projects-list.php [L]
 RewriteRule ^electronics-ece-btech-engineering-projects-list/?$ electronics-ece-btech-engineering-projects-list.php [L]
 RewriteRule ^machenical-me-btech-engineering-projects-list/?$ machenical-me-btech-engineering-projects-list.php [L]

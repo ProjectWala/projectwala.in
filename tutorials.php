@@ -1,3 +1,8 @@
+<?php
+include_once("./assets/code/php/helper.php");
+$base_path = getBasePath();
+
+?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
 
@@ -7,22 +12,7 @@
     <title>Software Development Tutorials & Guides | Project Wala India</title>
     <meta name="description" content="Explore our collection of tutorials on setting up local environments, importing databases, running PHP projects, and more with Project Wala India.">
     <meta name="keywords" content="IT Tutorials, Software Development Guides, Setup XAMPP, PHP Projects, MySQL, Project Wala India Tutorials">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Questrial:wght@400&amp;display=swap" />
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css" />
-    <link rel="stylesheet" href="assets/css/swiper-icons.css" />
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">    <link rel="stylesheet" href="assets/css/aos.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="assets/css/vendor/aos/aos.css" />
-    <link rel="stylesheet" href="assets/css/vendor/glightbox/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/css/main.css" />
-    <link rel="stylesheet" href="assets/css/Floating-Button.css" />
-    <link rel="stylesheet" href="assets/css/Incrementing-Animation.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <?php include("partials/links_css.php"); ?>
 </head>
 
 <body class="index-page">
@@ -47,7 +37,7 @@
                 <li class="list-group-item">
                     <h4 class="ps-3">Php</h4>
                     <div class="row">
-                        <div class="col"><a href="tutorials/how-to-run-local-php-project-using-xampp-mysql-server.php">How to run local php project using xamp server</a></div>
+                        <div class="col"><a href="<?= $base_path ?>/tutorials/how-to-run-local-php-project-using-xampp-mysql-server">How to run local php project using xamp server</a></div>
                         <div class="col-auto" role="button"><i class="far fa-copy text-secondary" onclick="copyToClipboard('https://projectwala.in/tutorials/how-to-run-local-php-project-using-xampp-mysql-server.php');"></i></div>
                     </div>
                 </li>
@@ -60,7 +50,7 @@
                 <li class="list-group-item">
                     <h4 class="ps-3">MySQL</h4>
                     <div class="row">
-                        <div class="col"><a href="tutorials/how-to-import-database-sql-script-to-xampp-mysql-server.php">How to import database or Sql Script in xamp mysql server</a></div>
+                        <div class="col"><a href="how-to-import-database-sql-script-to-xampp-mysql-server">How to import database or Sql Script in xamp mysql server</a></div>
                         <div class="col-auto" role="button"><i class="far fa-copy text-secondary" onclick="copyToClipboard('https://projectwala.in/tutorials/how-to-import-database-sql-script-to-xampp-mysql-server.php')"></i></div>
                     </div>
                 </li>
@@ -77,23 +67,7 @@
     <?php include("partials/callButton.php"); ?>
     <?php include("partials/whatsappButton.php"); ?>
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init-1.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/Incrementing-Animation-Counter.js"></script>
-    <script src="assets/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendor/php-email-form/validate.js"></script>
-    <script src="assets/js/vendor/aos/aos.js"></script>
-    <script src="assets/js/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/js/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/js/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/js/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/js/main.js"></script>
-    <script src="assets/js/js/pw.js"></script>
-    <script src="assets/js/myscript.js"></script>
+    <?php include("partials/links_scripts.php"); ?>
 </body>
 
 </html>

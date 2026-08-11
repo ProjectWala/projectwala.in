@@ -7,21 +7,7 @@
     <title>How to Run a Local PHP Project using XAMPP & MySQL</title>
     <meta name="description" content="A complete guide on how to set up and run your local PHP project using XAMPP and MySQL server on your machine.">
     <meta name="keywords" content="Run PHP Project XAMPP, Localhost PHP Setup, XAMPP Server Guide, MySQL PHP Project, Project Wala India">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Questrial:wght@400&amp;display=swap">
-    <link rel="stylesheet" href="../assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" href="../assets/css/swiper-icons.css">
-    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/aos.min.css">
-    <link rel="stylesheet" href="../assets/css/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="../assets/css/vendor/aos/aos.css">
-    <link rel="stylesheet" href="../assets/css/vendor/glightbox/css/glightbox.min.css">
-    <link rel="stylesheet" href="../assets/css/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../assets/css/css/main.css">
-    <link rel="stylesheet" href="../assets/css/Floating-Button.css">
-    <link rel="stylesheet" href="../assets/css/Incrementing-Animation.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <?php include("../partials/links_css.php"); ?>
 </head>
 
 <body class="index-page">
@@ -60,23 +46,7 @@
         <i class="bi bi-arrow-up-short"></i>
     </a>
     <?php include("../partials/callButton.php"); ?>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/aos.min.js"></script>
-    <script src="../assets/js/bs-init-1.js"></script>
-    <script src="../assets/js/aos.min.js"></script>
-    <script src="../assets/js/bs-init.js"></script>
-    <script src="../assets/js/Incrementing-Animation-Counter.js"></script>
-    <script src="../assets/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/vendor/php-email-form/validate.js"></script>
-    <script src="../assets/js/vendor/aos/aos.js"></script>
-    <script src="../assets/js/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="../assets/js/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/js/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="../assets/js/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/js/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/js/js/main.js"></script>
-    <script src="../assets/js/js/pw.js"></script>
-    <script src="../assets/js/myscript.js"></script>
+    <?php include("../partials/links_scripts.php"); ?>
 </body>
 
 </html>

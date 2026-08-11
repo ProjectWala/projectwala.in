@@ -1,37 +1,41 @@
 <?php
 
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
-$domain = $_SERVER['HTTP_HOST'];
-$base_path = $protocol . $domain;
-$domain = $_SERVER['HTTP_HOST'];
-if($domain=="localhost"){
-$base_path= $base_path.'/ProjectWala_New';
-}
+include_once __DIR__ . '/../assets/code/php/helper.php';
+$base_path = getBasePath();
 
 ?>
 
-<div class="container-fluid d-flex justify-content-between align-items-center header-container container-xl position-relative pe-3">
-    <a class="d-flex align-items-center me-auto logo me-xl-0" href="<?= $base_path ?>/index.php">
+<div
+    class="container-fluid d-flex justify-content-between align-items-center header-container container-xl position-relative pe-3">
+    <a class="d-flex align-items-center me-auto logo me-xl-0" href="<?= $base_path ?>">
         <h4 class="m-1 text-orange">Projectwala</h4>
     </a>
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href="<?= $base_path ?>/index.php">Home</a></li>
+            <li><a href="<?= $base_path ?>/">Home</a></li>
             <li><a href="<?= $base_path ?>/courses-list.php">Courses</a></li>
-            <li><a class="d-block d-xl-none" href="<?= $base_path ?>/cse-bca-mca-it-Computer-science-btech-projects-list/">Computer Science CS IT</a></li>
-            <li><a class="d-block d-xl-none" href="<?= $base_path ?>/electronics-ece-btech-engineering-projects-list/">Electronics Electrical EC EL</a></li>
-            <li><a class="d-block d-xl-none" href="<?= $base_path ?>/machenical-me-btech-engineering-projects-list/">Mechanical ME</a></li>
+            <li><a class="d-block d-xl-none"
+                    href="<?= $base_path ?>/cse-bca-mca-it-Computer-science-btech-projects-list/">Computer Science CS
+                    IT</a></li>
+            <li><a class="d-block d-xl-none"
+                    href="<?= $base_path ?>/electronics-ece-btech-engineering-projects-list/">Electronics Electrical EC
+                    EL</a></li>
+            <li><a class="d-block d-xl-none"
+                    href="<?= $base_path ?>/machenical-me-btech-engineering-projects-list/">Mechanical ME</a></li>
 
-            
+
             <li class="dropdown d-none d-xl-block">
                 <a href="#">Projects</a>
                 <ul>
-                    <li><a href="<?= $base_path ?>/cse-bca-mca-it-Computer-science-btech-projects-list/">Computer Science CS IT</a></li>
-                    <li><a href="<?= $base_path ?>/electronics-ece-btech-engineering-projects-list/">Electronics Electrical EC EL</a></li>
-                    <li><a href="<?= $base_path ?>/machenical-me-btech-engineering-projects-list/">Mechanical ME</a></li>
+                    <li><a href="<?= $base_path ?>/cse-bca-mca-it-Computer-science-btech-projects-list/">Computer
+                            Science CS IT</a></li>
+                    <li><a href="<?= $base_path ?>/electronics-ece-btech-engineering-projects-list/">Electronics
+                            Electrical EC EL</a></li>
+                    <li><a href="<?= $base_path ?>/machenical-me-btech-engineering-projects-list/">Mechanical ME</a>
+                    </li>
                 </ul>
             </li>
-            <li><a href="<?= $base_path ?>/tutorials.php">Tutorials</a></li>
+            <li><a href="<?= $base_path ?>/tutorials">Tutorials</a></li>
             <li><a href="<?= $base_path ?>/about-us">About</a></li>
             <li><a href="<?= $base_path ?>/contact-us">Contact us</a></li>
         </ul>
@@ -41,7 +45,8 @@ $base_path= $base_path.'/ProjectWala_New';
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/projectwalaindia/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a></div>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
 </div>
 
 <!--<style>

@@ -5,7 +5,7 @@ $domain = $_SERVER['HTTP_HOST'];
 $base_path = $protocol . $domain;
 $domain = $_SERVER['HTTP_HOST'];
 if($domain=="localhost"){
-$base_path= $base_path.'/ProjectWala_New';
+$base_path= $base_path.'/ProjectWala.in/projectwala.in';
 }
 
 ?>

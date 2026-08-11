@@ -1,6 +1,6 @@
 <?php
 include 'assets/code/data/projects.php';
-$type='Mechanical';
+$type='ComputerScience';
 ?>
 
 <!DOCTYPE html>
@@ -91,20 +91,7 @@ $type='Mechanical';
         <?php include("partials/whatsappButton.php"); ?>
 
     </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/Incrementing-Animation-Counter.js"></script>
-    <script src="assets/js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendor/php-email-form/validate.js"></script>
-    <script src="assets/js/vendor/aos/aos.js"></script>
-    <script src="assets/js/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/js/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/js/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/js/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/js/main.js"></script>
-    <script src="assets/js/js/pw.js"></script>
+    <?php include("partials/links_scripts.php"); ?>
      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="module">
         import { Projects } from './assets/code/data/data.js';
