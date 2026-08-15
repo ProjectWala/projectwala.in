@@ -51,6 +51,10 @@
                         <p>We deals in following service areas</p>
                     </div>
                 </div>
+                
+                <?php include("partials/trainer-profile.php"); ?>
+                
+                <?php include("partials/trainer-resume.php"); ?>
             </div>
         </section>
     </main>

@@ -90,9 +90,9 @@
                     <div class="col-lg-6">
 
                         <div class="hero-image">
-                            <h1 class="text-center text-orange  aos-animate" data-aos="fade-right" data-aos-once="true">
+                            <h2 class="text-center text-orange  aos-animate" data-aos="fade-right" data-aos-once="true">
                                 <strong>We Offer</strong>
-                            </h1>
+                            </h2>
 
                             <div class="row my-2">
                                 <div class="col-auto">
@@ -200,7 +200,7 @@
                                     </p>
                                     <a class="btn btn-primary border rounded-pill" role="button"
                                         style="background: var(--accent-color);"
-                                        href="cse-bca-mca-it-Computer-science-btech-projects-list.php">View List&nbsp;
+                                        href="cse-bca-mca-it-Computer-science-btech-projects-list">View List&nbsp;
                                         &nbsp;&gt;</a>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                         Raspberry Pi | Hybrid | PLC | SCADA |&nbsp;Embedded C / Micro Python</p>
                                     <a class="btn btn-primary border rounded-pill" role="button"
                                         style="background: var(--accent-color);"
-                                        href="electronics-ece-btech-engineering-projects-list.php">View List &gt;</a>
+                                        href="electronics-ece-btech-engineering-projects-list">View List &gt;</a>
                                 </div>
                             </div>
                             <div class="col-md-6" data-aos="fade-up">
@@ -231,7 +231,7 @@
                                         Fabrication | CNC&nbsp;Lathe Machine</p>
                                     <a class="btn btn-primary border rounded-pill" role="button"
                                         style="background: var(--accent-color);"
-                                        href="machenical-me-btech-engineering-projects-list.php">View List &gt;</a>
+                                        href="machenical-me-btech-engineering-projects-list">View List &gt;</a>
                                 </div>
                             </div>
                             <div class="col-md-6" data-aos="fade-up">
@@ -244,7 +244,7 @@
                                     </div>
                                     <p style="font-size: 12.4px;">Full Stack Developer | Frontend UI | Backend Web Api |
                                         LIve Project Training | Git | Gen AI</p>
-                                    <a href="./courses-list.php" class="btn btn-primary border rounded-pill"
+                                    <a href="./courses-list" class="btn btn-primary border rounded-pill"
                                         role="button" style="background: var(--accent-color);">Coming Soon</a>
                                 </div>
                             </div>

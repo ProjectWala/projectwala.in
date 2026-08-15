@@ -1,7 +1,7 @@
 
-let comments = [];
-const DELETE_PASSWORD = "123";
-const STORAGE_KEY = "yogaComments";
+var comments = [];
+var DELETE_PASSWORD = "123";
+var STORAGE_KEY = "yogaComments";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadComments(); // Load from localStorage on page load
