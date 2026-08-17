@@ -22,6 +22,7 @@
                         <h4 class="display-6 text-center bounce animated mb-4 text-gradiant">Frontend Developer<br>Vue.js &amp; Bootstrap 5</h4>
                         <p class="lead text-center mb-4" data-aos="zoom-in-up" data-aos-once="true" style="font-size: 14px;"><strong>Live Sessions&nbsp; ||&nbsp; 1 to 1 Mentorship&nbsp; ||&nbsp;&nbsp;Assignment based Progress Tracking</strong></p>
                         <p class="text-center" data-aos="zoom-in-up" data-aos-delay="300">Introduction to HTML Structure | Boot Strap Components | jQuery Integration | Traditional vs Progressive Web App | Modular Designs Pattern | JS Frameworks VueJs | Mini Project</p>
+                        <br/>
                         <div class="card bg-transparent border rounded shadow-sm contact-form" data-aos="fade-up" data-aos-delay="300">
                             <div class="card-body p-4">
                                 <div class="row">
@@ -84,7 +85,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-xl-flex align-items-xl-center"><img data-aos="zoom-in-up" data-aos-duration="950" src="../assets/img/animations/Assistant-Bot.svg"></div>
+                    <div class="col-lg-6 d-xl-flex align-items-xl-center">
+                        <img data-aos="zoom-in-up" data-aos-duration="950" src="../assets/img/animations/application.svg"></div>
                 </div>
             </div>
         </section>
