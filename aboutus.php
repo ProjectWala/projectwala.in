@@ -28,9 +28,7 @@
 </head>
 
 <body class="index-page">
-    <header class="shadow-sm header sticky-top" id="header">
-        <?php include("partials/menu.php"); ?>
-    </header>
+    <?php include("partials/menu.php"); ?>
     <main class="main">
         <section id="about" class="about section light-background pt-3  project-wala-bg">
             <div class="container section-title" data-aos="fade-up">

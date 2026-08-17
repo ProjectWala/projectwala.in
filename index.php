@@ -28,9 +28,7 @@
 </head>
 
 <body class="index-page">
-    <header class="shadow-sm header sticky-top" id="header">
-        <?php include("partials/menu.php"); ?>
-    </header>
+    <?php include("partials/menu.php"); ?>
     <main class="main" id="app">
         <section id="hero" class="hero section project-wala-bg">
             <div class="container">

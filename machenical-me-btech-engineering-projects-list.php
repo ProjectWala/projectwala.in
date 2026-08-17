@@ -1,6 +1,6 @@
 <?php
 include 'assets/code/data/projects.php';
-$type='Mechanical';
+$type = 'Mechanical';
 ?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
@@ -9,14 +9,17 @@ $type='Mechanical';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Mechanical (ME) B.Tech Engineering Projects | Project Wala India</title>
-    <meta name="description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
-    <meta name="keywords" content="Mechanical Projects, ME Projects, B.Tech Mechanical Projects, Engineering Projects, Final Year Projects, Project Wala India" />
-    
+    <meta name="description"
+        content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
+    <meta name="keywords"
+        content="Mechanical Projects, ME Projects, B.Tech Mechanical Projects, Engineering Projects, Final Year Projects, Project Wala India" />
+
     <link rel="canonical" href="https://projectwala.in/machenical-me-btech-engineering-projects-list.php" />
-    
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Mechanical (ME) B.Tech Engineering Projects | Project Wala India" />
-    <meta property="og:description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
+    <meta property="og:description"
+        content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India. From basic hardware to advanced mechanical engineering implementations." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://projectwala.in/machenical-me-btech-engineering-projects-list.php" />
     <meta property="og:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
@@ -25,7 +28,8 @@ $type='Mechanical';
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mechanical (ME) B.Tech Engineering Projects" />
-    <meta name="twitter:description" content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India." />
+    <meta name="twitter:description"
+        content="Find top Mechanical (ME) B.Tech engineering final year projects at Project Wala India." />
     <meta name="twitter:image" content="https://projectwala.in/assets/img/logoOp05.webp" />
 
     <?php include("partials/links_css.php"); ?>
@@ -63,26 +67,32 @@ $type='Mechanical';
 
 <body class="index-page">
     <div id="app">
-
-
-        <header class="shadow-sm header sticky-top" id="header">
-            <?php include("partials/menu.php"); ?>
-        </header>
+        <?php include("partials/menu.php"); ?>
         <main class="main">
-            <section id="hero" class="hero section project-wala-bg" style="background: url(&quot;assets/img/logoOp05.webp&quot;);padding-top: 40px;">
+            <section id="hero" class="hero section project-wala-bg"
+                style="background: url(&quot;assets/img/logoOp05.webp&quot;);padding-top: 40px;">
                 <div class="container section-title" style="padding-bottom: 40px;">
-                    <h2 class="rubberBand animated"><span style="font-weight: normal !important;">Mechanical Projects</span></h2>
+                    <h2 class="rubberBand animated"><span style="font-weight: normal !important;">Mechanical
+                            Projects</span></h2>
                     <div class="title-shape">
                         <svg viewbox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+                            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                                stroke-width="2"></path>
                         </svg>
                     </div>
-                    <p class="bounce animated">Full Stack&nbsp; <strong>||</strong>&nbsp; Live Project <strong>||</strong>&nbsp; Hosting &amp; Deployment&nbsp; <strong>||</strong>&nbsp; Whatsapp Api</p>
+                    <p class="bounce animated">Full Stack&nbsp; <strong>||</strong>&nbsp; Live Project
+                        <strong>||</strong>&nbsp; Hosting &amp; Deployment&nbsp; <strong>||</strong>&nbsp; Whatsapp Api
+                    </p>
                     <div class="row" data-aos="fade-up" data-aos-delay="250">
                         <div class="col">
                             <div class="input-group mt-4">
-                            <input v-model="keyword" class="border rounded-pill focus-ring focus-ring-danger form-control" type="text" placeholder="Quick Search . . ." />
-                            <span class="bg-transparent border-0 input-group-text" style="margin-left: -38px;transform-style: preserve-3d;"><i class="fa fa-remove text-secondary"></i></span></div>
+                                <input v-model="keyword"
+                                    class="border rounded-pill focus-ring focus-ring-danger form-control" type="text"
+                                    placeholder="Quick Search . . ." />
+                                <span class="bg-transparent border-0 input-group-text"
+                                    style="margin-left: -38px;transform-style: preserve-3d;"><i
+                                        class="fa fa-remove text-secondary"></i></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,7 +132,7 @@ $type='Mechanical';
             </section>
         </main>
         <?php include("partials/footer.php"); ?>
-            <?php include("../partials/moveToTopButton.php"); ?>
+        <?php include("../partials/moveToTopButton.php"); ?>
 
         <?php include("partials/callButton.php"); ?>
         <?php include("partials/whatsappButton.php"); ?>

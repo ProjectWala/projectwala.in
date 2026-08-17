@@ -29,9 +29,7 @@
 </head>
 
 <body class="index-page">
-    <header class="shadow-sm header sticky-top" id="header">
-        <?php include("partials/menu.php"); ?>
-    </header>
+    <?php include("partials/menu.php"); ?>
     <main class="main">
         <section id="hero" class="hero section"
             style="background: url(&quot;assets/img/logoOp05.webp&quot;);padding-top: 40px;">

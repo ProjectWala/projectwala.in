@@ -65,11 +65,7 @@
 </head>
 
 <body class="index-page">
-    <div id="app">
-        <header class="shadow-sm header sticky-top" id="header">
-            <?php include("partials/menu.php"); ?>
-
-        </header>
+        <?php include("partials/menu.php"); ?>
         <main class="main">
             <section id="contact" class="contact section light-background project-wala-bg">
                 <div class="container section-title" data-aos="fade-up">
@@ -144,7 +140,6 @@
         </a>
         <?php include("partials/callButton.php"); ?>
         <?php include("partials/whatsappButton.php"); ?>
-    </div>
     <?php include("partials/links_scripts.php"); ?>
 </body>
 
