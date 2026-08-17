@@ -16,7 +16,7 @@
 </head>
 
 <body class="index-page">
-    <?php include("partials/menu.php"); ?>
+    <?php include("../partials/menu.php"); ?>
     <main class="main">
         <section id="faq" class="faq section">
             <div class="container section-title">

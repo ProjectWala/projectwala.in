@@ -2,6 +2,17 @@
 RewriteEngine On
 
 # Base path
+# Uncomment and adjust RewriteBase if you face 404/500 errors in subfolders locally
+# RewriteBase /Projectwala.in/projectwala.in/
+
+# Force HTTPS (SSL) on production - Cloudflare Flexible Mode Fix
+RewriteCond %{HTTP_HOST} !=localhost
+RewriteCond %{HTTP_HOST} !=127.0.0.1
+# Check if the connection to Apache is HTTP...
+RewriteCond %{HTTPS} off
+# ...AND check that Cloudflare didn't already serve it as HTTPS to the user
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Pretty URLs
 # RewriteRule ^/?$ index.php [L]
@@ -9,6 +20,7 @@ RewriteRule ^contacts/?$ ContactUs.php [L]
 RewriteRule ^contact-us/?$ ContactUs.php [L]
 RewriteRule ^about-us/?$ aboutus.php [L]
 RewriteRule ^tutorials/?$ tutorials.php [L]
+
 # Tutorial detail pages 
 RewriteRule ^tutorials/how-to-run-local-php-project-using-xampp-mysql-server/?$ tutorials/how-to-run-local-php-project-using-xampp-mysql-server.php [L] 
 RewriteRule ^tutorials/how-to-import-database-sql-script-to-xampp-mysql-server/?$ tutorials/how-to-import-database-sql-script-to-xampp-mysql-server.php [L]
