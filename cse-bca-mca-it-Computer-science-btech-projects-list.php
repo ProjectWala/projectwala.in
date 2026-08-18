@@ -102,7 +102,7 @@ $type='ComputerScience';
             </section>
         </main>
         <?php include("partials/footer.php"); ?>
-        <?php include("../partials/moveToTopButton.php"); ?>
+        <?php include("partials/moveToTopButton.php"); ?>
 
         <?php include("partials/callButton.php"); ?>
         <?php include("partials/whatsappButton.php"); ?>
