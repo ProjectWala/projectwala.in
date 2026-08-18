@@ -257,6 +257,44 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-sm-12 col-md-6 p-2">
+                        <div class="card shadow-sm" data-aos="fade-left" data-aos-once="true">
+                            <div class="card-body">
+                                <h4 class="text-start card-title text-orange">3 Months Industrial Training | Fullstack</h4>
+                                <div class="row mb-1">
+                                    <div class="col">
+                                        <h6 class="text-start text-muted mb-2">Target :&nbsp;<strong>Final Yr. / Passed Out</strong>
+                                        </h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="text-start text-muted mb-2">Duration : <strong>3 Months</strong></h6>
+                                    </div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col">
+                                        <h6 class="text-start text-muted mb-2">Live Project :&nbsp;<i
+                                                class="fas fa-check text-success"></i></h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="text-start text-muted mb-2">Mock Interview :&nbsp;<i
+                                                class="fas fa-check text-success"></i></h6>
+                                    </div>
+                                </div>
+                                <p class="minHeight85 text-start card-text">Fast pace development from basics to deployment | AI for Frontend (FE), Backend (BE), Database (DB) | Hosting a live project | Mentorship | Assignments.</p>
+                                <div class="row">
+                                    <div class="col text-start">
+                                        <img class="rounded-circle img-fluid shadow-sm me-1" src="assets/img/icons/chat-gpt-logo.png" style="width: 41px; background-color: #f8f9fa; padding: 5px;">
+                                        <img class="rounded-circle img-fluid shadow-sm me-1" src="assets/img/icons/male_users_comments.png" style="width: 41px; background-color: #f8f9fa; padding: 5px;">
+                                    </div>
+                                    <div class="col-auto text-end">
+                                        <a href="./courses/industrial-training-ai-fullstack.php"
+                                            class="btn btn-primary border rounded btn-orange" type="button">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

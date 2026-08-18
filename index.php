@@ -319,6 +319,65 @@
             </div>
         </section>
 
+        <section id="super-course-cta" class="section py-5 my-5 light-background" style="position: relative; overflow: hidden;">
+            <div class="container my-5" style="position: relative; z-index: 1;">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10">
+                        <span class="badge rounded-pill px-4 py-2 mb-4 shadow-sm text-dark" data-aos="fade-down" style="background-color: var(--accent-color, #fd7e14); font-weight: 800; letter-spacing: 2px; font-size: 0.85rem;">THE B.TECH ALTERNATIVE</span>
+                        <h2 class="display-4 fw-bolder mb-4 text-dark" data-aos="fade-up" data-aos-delay="50" style="line-height: 1.2; letter-spacing: -1px;">
+                            Skip 4 Years of Theory.<br/>
+                            <span class="text-orange">Build Real Software in 6 Months.</span>
+                        </h2>
+                        <p class="lead mb-5 mx-auto text-secondary" data-aos="fade-up" data-aos-delay="100" style="max-width: 800px; font-size: 1.25rem; line-height: 1.6;">
+                            Master full-stack engineering, AI-native vibe coding with Cursor, and production system design under 10+ year senior tech leaders. No filler. No outdated textbooks.
+                        </p>
+                        
+                        <div class="row text-start justify-content-center mb-5 g-4">
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="p-4 h-100 rounded-4 shadow-sm bg-white" style="border: 1px solid #dee2e6;">
+                                    <div class="mb-3" style="font-size: 2rem;">🚀</div>
+                                    <h4 class="h5 text-dark mb-2 fw-bold">AI-Native Workflow</h4>
+                                    <p class="text-secondary" style="font-size: 1rem; margin-bottom: 0;">Build 10x faster using Cursor, Windsurf, and Claude.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="p-4 h-100 rounded-4 shadow-sm bg-white" style="border: 1px solid #dee2e6;">
+                                    <div class="mb-3" style="font-size: 2rem;">🏗️</div>
+                                    <h4 class="h5 text-dark mb-2 fw-bold">Production-Grade Apps</h4>
+                                    <p class="text-secondary" style="font-size: 1rem; margin-bottom: 0;">Ship deployed SaaS products, not basic tutorial clones.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="p-4 h-100 rounded-4 shadow-sm bg-white" style="border: 1px solid #dee2e6;">
+                                    <div class="mb-3" style="font-size: 2rem;">🎯</div>
+                                    <h4 class="h5 text-dark mb-2 fw-bold">Interview Ready</h4>
+                                    <p class="text-secondary" style="font-size: 1rem; margin-bottom: 0;">Live mock technical rounds, DSA, and system design architecture.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mt-2" data-aos="zoom-in" data-aos-delay="400">
+                            <a href="courses/industrial-training-ai-fullstack" class="btn btn-primary btn-orange btn-lg rounded-pill px-5 py-3 fw-bold cta-hover" style="font-size: 1.15rem; box-shadow: 0 10px 25px -5px rgba(253, 126, 20, 0.4), 0 8px 10px -6px rgba(253, 126, 20, 0.1);">
+                                3 Months AI Masterclass &rarr;
+                            </a>
+                            <a href="courses/fullstack-asp-dot-net-mvc-core" class="btn btn-outline-dark btn-lg rounded-pill px-5 py-3 fw-bold" style="border-width: 2px; font-size: 1.15rem;">
+                                Fullstack .NET Core Course &rarr;
+                            </a>
+                        </div>
+                        
+                        <p class="mt-5 mb-0 text-secondary" style="font-size: 0.95rem; font-weight: 500;" data-aos="fade-up" data-aos-delay="500">
+                            <em>"Designed for freshers, BCA/B.Tech graduates, and career switchers looking for Tier-1 engineering standards."</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .cta-hover:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 20px 25px -5px rgba(253, 126, 20, 0.4), 0 8px 10px -6px rgba(253, 126, 20, 0.1) !important;
+                }
+            </style>
+        </section>
     </main>
     <?php include __DIR__ . "/partials/footer.php"; ?>
 

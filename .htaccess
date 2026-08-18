@@ -32,3 +32,5 @@ RewriteRule ^courses/?$ courses-list.php [L]
 # Course ID rewrite (e.g. /courses/1 → PHP file)
 RewriteRule ^courses/([0-9]+)/?$ courses/course-details.php?id=$1 [L,QSA]
 RewriteRule ^courses/digital-marketting-using-ai-with-gemini/?$ courses/digital-marketting-using-ai-with-gemini.php [L]
+RewriteRule ^courses/industrial-training-ai-fullstack/?$ courses/industrial-training-ai-fullstack.php [L]
+RewriteRule ^courses/fullstack-asp-dot-net-mvc-core/?$ courses/fullstack-asp-dot-net-mvc-core.php [L]
